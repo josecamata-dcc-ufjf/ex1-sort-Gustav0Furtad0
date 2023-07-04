@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "ctest",
+      "setup": "cmake -B build && cmake --build build",
+      "run": "cd build && ctest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
