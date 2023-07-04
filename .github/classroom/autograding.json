@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "ctest",
-      "setup": "cmake -B build && cmake --build build",
+      "setup": "rm -rf build && cmake -B build && cmake --build build",
       "run": "cd build && ctest",
       "input": "",
       "output": "",
